@@ -18,9 +18,15 @@
     <ClCompile Include="Main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="File2.h">
+      <Filter>Header Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="mylib.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WhileLoops.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

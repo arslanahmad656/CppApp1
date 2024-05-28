@@ -1,6 +1,8 @@
 #include <iostream>
 #include <cmath>
 #include "mylib.h"
+#include "File2.h"
+#include "WhileLoops.h"
 using namespace std;
 using namespace myns;
 
@@ -374,7 +376,21 @@ int main()
 	//cout << sizeof(int) << endl;
 
 	//testEscapeSequences();
-	escapeSequencesExamples();
+	//escapeSequencesExamples();
+
+	//Test();
+	//TestChar();
+	//incrementOperators();
+	//shortCircuitingMisunderstanding();
+
+	//Example1();
+	PrintAlphabets();
+	PrintAlphabetsReverse();
+	PrintEvenNumbers();
+	Print100OddNumbers();
+	//inputValidationExample();
+	sentinalSumExample();
+
 	system("pause");
 	return 0;
 }
