@@ -15,6 +15,14 @@ static void Example1()
 	cout << "\nLoop end\n";
 }
 
+static void Example1WithFor()
+{
+	for (int i = 1; i <= 10; i++)
+	{
+		cout << i; 
+	}
+}
+
 static void PrintAlphabets()
 {
 	char c = 'A';
@@ -25,6 +33,14 @@ static void PrintAlphabets()
 	}
 
 	cout << "\nLoop end\n";
+}
+
+static void PrintAlphabetsWithFor()
+{
+	for (char c = 'A'; c <= 'Z'; c++)
+	{
+		cout << c;
+	}
 }
 
 static void PrintAlphabetsReverse()
@@ -55,6 +71,12 @@ static void PrintEvenNumbers()
 	cout << "\nLoop End\n";
 }
 
+static void PrintEvenNumbersWithFor()
+{
+	for (int i = 0; i <= 100; i++)
+		if (i % 2 == 0) cout << i << " ";
+}
+
 static void Print100OddNumbers()
 {
 	int number = 1;
@@ -72,6 +94,18 @@ static void Print100OddNumbers()
 	}
 
 	cout << "\nLoop End\n";
+}
+
+static void Print100OddNumbersWithFor()
+{
+	for (int number = 1, counter = 1; counter <= 100; number++)
+	{
+		if (number % 2 != 0)
+		{
+			cout << number << "  ";
+			counter++;
+		}
+	}
 }
 
 static void inputValidationExample()

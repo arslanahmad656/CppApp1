@@ -3,6 +3,7 @@
 #include "mylib.h"
 #include "File2.h"
 #include "WhileLoops.h"
+#include "DoLoops.h"
 using namespace std;
 using namespace myns;
 
@@ -384,12 +385,13 @@ int main()
 	//shortCircuitingMisunderstanding();
 
 	//Example1();
-	PrintAlphabets();
+	/*PrintAlphabets();
 	PrintAlphabetsReverse();
 	PrintEvenNumbers();
-	Print100OddNumbers();
+	Print100OddNumbers();*/
 	//inputValidationExample();
-	sentinalSumExample();
+	//sentinalSumExample();
+	validateInput();
 
 	system("pause");
 	return 0;
