@@ -131,6 +131,7 @@
     <ClCompile Include="Main.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="FunctionsTest.h" />
     <ClInclude Include="mylib.h" />
     <ClInclude Include="NestedLoops.h" />
     <ClInclude Include="WhileLoops.h" />

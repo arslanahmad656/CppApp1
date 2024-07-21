@@ -5,6 +5,7 @@
 #include "WhileLoops.h"
 #include "DoLoops.h"
 #include "NestedLoops.h"
+#include "FunctionsTest.h"
 using namespace std;
 using namespace myns;
 
@@ -394,7 +395,8 @@ int main()
 	//sentinalSumExample();
 	//validateInput();
 	//isPrime();
-	testNestedLoops();
+	//testNestedLoops();
+	functionsTest();
 
 	system("pause");
 	return 0;
