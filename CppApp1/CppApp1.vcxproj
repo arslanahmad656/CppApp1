@@ -134,6 +134,7 @@
     <ClInclude Include="FunctionsTest.h" />
     <ClInclude Include="mylib.h" />
     <ClInclude Include="NestedLoops.h" />
+    <ClInclude Include="ScopeAndLifetime.h" />
     <ClInclude Include="WhileLoops.h" />
   </ItemGroup>
   <ItemGroup>

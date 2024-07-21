@@ -6,6 +6,7 @@
 #include "DoLoops.h"
 #include "NestedLoops.h"
 #include "FunctionsTest.h"
+#include "ScopeAndLifetime.h"
 using namespace std;
 using namespace myns;
 
@@ -396,8 +397,10 @@ int main()
 	//validateInput();
 	//isPrime();
 	//testNestedLoops();
-	functionsTest();
+	//functionsTest();
+	//testLocalScope();
+	testStatic();
 
 	system("pause");
-	return 0;
+	return -1;
 }

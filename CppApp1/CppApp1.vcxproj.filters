@@ -35,6 +35,9 @@
     <ClInclude Include="FunctionsTest.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="ScopeAndLifetime.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <None Include="DoLoops.h">
