@@ -7,6 +7,7 @@
 #include "NestedLoops.h"
 #include "FunctionsTest.h"
 #include "ScopeAndLifetime.h"
+#include "FunctionsTest2.h"
 using namespace std;
 using namespace myns;
 
@@ -399,8 +400,9 @@ int main()
 	//testNestedLoops();
 	//functionsTest();
 	//testLocalScope();
-	testStatic();
+	//testStatic();
+	testOverloading();
 
 	system("pause");
-	return -1;
+	return 0;
 }
