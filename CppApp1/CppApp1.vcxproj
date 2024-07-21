@@ -132,6 +132,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="mylib.h" />
+    <ClInclude Include="NestedLoops.h" />
     <ClInclude Include="WhileLoops.h" />
   </ItemGroup>
   <ItemGroup>

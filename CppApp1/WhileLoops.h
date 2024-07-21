@@ -154,3 +154,32 @@ static void sentinalSumExample()
 	// exiting the loop means that user wants to end (he has entered a negative number)
 	cout << "Total inputs: " << inputCount << endl << "Final Sum: " << sum << endl;
 }
+
+static void isPrime()
+{
+	// check the given number is prime.
+
+	int number;
+	cout << "Enter a number to check if it is prime: " << endl;
+	cin >> number;
+	int factor = -1;
+
+	for (int i = 2; factor == -1 && i <= sqrt(number); i++)
+	{
+		if (number % i == 0)
+		{
+			factor = i;
+		}
+	}
+
+	if (factor != -1)
+	{
+		cout << number << " is not a prime number because it is divisible by " << factor;
+	}
+	else
+	{
+		cout << number << "is a prime number.";
+	}
+
+	cout << endl;
+}

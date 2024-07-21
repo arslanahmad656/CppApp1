@@ -4,6 +4,7 @@
 #include "File2.h"
 #include "WhileLoops.h"
 #include "DoLoops.h"
+#include "NestedLoops.h"
 using namespace std;
 using namespace myns;
 
@@ -391,7 +392,9 @@ int main()
 	Print100OddNumbers();*/
 	//inputValidationExample();
 	//sentinalSumExample();
-	validateInput();
+	//validateInput();
+	//isPrime();
+	testNestedLoops();
 
 	system("pause");
 	return 0;
