@@ -8,6 +8,7 @@
 #include "FunctionsTest.h"
 #include "ScopeAndLifetime.h"
 #include "FunctionsTest2.h"
+#include "Aliases.h"
 using namespace std;
 using namespace myns;
 
@@ -401,7 +402,8 @@ int main()
 	//functionsTest();
 	//testLocalScope();
 	//testStatic();
-	testOverloading();
+	//testOverloading();
+	AliasesTest();
 
 	system("pause");
 	return 0;

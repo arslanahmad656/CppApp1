@@ -41,6 +41,9 @@
     <ClInclude Include="FunctionsTest2.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Aliases.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <None Include="DoLoops.h">

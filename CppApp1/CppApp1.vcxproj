@@ -131,6 +131,7 @@
     <ClCompile Include="Main.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Aliases.h" />
     <ClInclude Include="FunctionsTest.h" />
     <ClInclude Include="FunctionsTest2.h" />
     <ClInclude Include="mylib.h" />
