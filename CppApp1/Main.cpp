@@ -9,6 +9,7 @@
 #include "ScopeAndLifetime.h"
 #include "FunctionsTest2.h"
 #include "Aliases.h"
+#include "ReturnByRef.h"
 using namespace std;
 using namespace myns;
 
@@ -403,7 +404,8 @@ int main()
 	//testLocalScope();
 	//testStatic();
 	//testOverloading();
-	AliasesTest();
+	//AliasesTest();
+	returnByRefTest();
 
 	system("pause");
 	return 0;

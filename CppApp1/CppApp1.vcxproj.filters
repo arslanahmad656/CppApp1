@@ -44,6 +44,9 @@
     <ClInclude Include="Aliases.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="ReturnByRef.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <None Include="DoLoops.h">
