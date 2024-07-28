@@ -140,6 +140,7 @@
     <ClInclude Include="Recursion2.h" />
     <ClInclude Include="ReturnByRef.h" />
     <ClInclude Include="ScopeAndLifetime.h" />
+    <ClInclude Include="Templates.h" />
     <ClInclude Include="WhileLoops.h" />
   </ItemGroup>
   <ItemGroup>

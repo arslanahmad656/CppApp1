@@ -12,6 +12,7 @@
 #include "ReturnByRef.h"
 #include "Recursion.h"
 #include "Recursion2.h"
+#include "Templates.h"
 using namespace std;
 using namespace myns;
 
@@ -409,7 +410,8 @@ int main()
 	//AliasesTest();
 	//returnByRefTest();
 	//recursionTest();
-	testRecursion2();
+	//testRecursion2();
+	templateTest();
 
 	system("pause");
 	return 0;
