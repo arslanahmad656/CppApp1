@@ -136,6 +136,8 @@
     <ClInclude Include="FunctionsTest2.h" />
     <ClInclude Include="mylib.h" />
     <ClInclude Include="NestedLoops.h" />
+    <ClInclude Include="Recursion.h" />
+    <ClInclude Include="Recursion2.h" />
     <ClInclude Include="ReturnByRef.h" />
     <ClInclude Include="ScopeAndLifetime.h" />
     <ClInclude Include="WhileLoops.h" />

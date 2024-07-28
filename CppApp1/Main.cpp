@@ -10,6 +10,8 @@
 #include "FunctionsTest2.h"
 #include "Aliases.h"
 #include "ReturnByRef.h"
+#include "Recursion.h"
+#include "Recursion2.h"
 using namespace std;
 using namespace myns;
 
@@ -405,7 +407,9 @@ int main()
 	//testStatic();
 	//testOverloading();
 	//AliasesTest();
-	returnByRefTest();
+	//returnByRefTest();
+	//recursionTest();
+	testRecursion2();
 
 	system("pause");
 	return 0;

@@ -47,6 +47,12 @@
     <ClInclude Include="ReturnByRef.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Recursion.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Recursion2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <None Include="DoLoops.h">
