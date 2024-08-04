@@ -13,6 +13,9 @@
 #include "Recursion.h"
 #include "Recursion2.h"
 #include "Templates.h"
+#include "Arrays1.h"
+#include "Arrays2.h"
+#include "Arrays3.h"
 using namespace std;
 using namespace myns;
 
@@ -411,7 +414,10 @@ int main()
 	//returnByRefTest();
 	//recursionTest();
 	//testRecursion2();
-	templateTest();
+	//templateTest();
+	//testArrays1();
+	//testArrays2();
+	testArrays3();
 
 	system("pause");
 	return 0;

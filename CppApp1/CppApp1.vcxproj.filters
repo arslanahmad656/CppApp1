@@ -56,6 +56,15 @@
     <ClInclude Include="Templates.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Arrays1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Arrays2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Arrays3.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <None Include="DoLoops.h">
