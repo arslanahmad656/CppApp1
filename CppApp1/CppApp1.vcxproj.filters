@@ -65,6 +65,15 @@
     <ClInclude Include="Arrays3.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="2dArray.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="3dArray.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ArrayPractice.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <None Include="DoLoops.h">

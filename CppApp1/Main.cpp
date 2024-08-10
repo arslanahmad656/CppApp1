@@ -16,6 +16,9 @@
 #include "Arrays1.h"
 #include "Arrays2.h"
 #include "Arrays3.h"
+#include "2dArray.h"
+#include "3dArray.h"
+#include "ArrayPractice.h"
 using namespace std;
 using namespace myns;
 
@@ -417,7 +420,10 @@ int main()
 	//templateTest();
 	//testArrays1();
 	//testArrays2();
-	testArrays3();
+	//testArrays3();
+	//test2dArray();
+	//test3dArray();
+	arrayPractice1();
 
 	system("pause");
 	return 0;

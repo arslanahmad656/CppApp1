@@ -131,7 +131,10 @@
     <ClCompile Include="Main.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="2dArray.h" />
+    <ClInclude Include="3dArray.h" />
     <ClInclude Include="Aliases.h" />
+    <ClInclude Include="ArrayPractice.h" />
     <ClInclude Include="Arrays1.h" />
     <ClInclude Include="Arrays2.h" />
     <ClInclude Include="Arrays3.h" />
