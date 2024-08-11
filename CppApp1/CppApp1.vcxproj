@@ -138,6 +138,7 @@
     <ClInclude Include="Arrays1.h" />
     <ClInclude Include="Arrays2.h" />
     <ClInclude Include="Arrays3.h" />
+    <ClInclude Include="CharacterArrays.h" />
     <ClInclude Include="FunctionsTest.h" />
     <ClInclude Include="FunctionsTest2.h" />
     <ClInclude Include="mylib.h" />

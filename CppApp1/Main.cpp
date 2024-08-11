@@ -19,6 +19,7 @@
 #include "2dArray.h"
 #include "3dArray.h"
 #include "ArrayPractice.h"
+#include "CharacterArrays.h"
 using namespace std;
 using namespace myns;
 
@@ -423,7 +424,8 @@ int main()
 	//testArrays3();
 	//test2dArray();
 	//test3dArray();
-	arrayPractice1();
+	//arrayPractice1();
+	characterArraysTest();
 
 	system("pause");
 	return 0;
