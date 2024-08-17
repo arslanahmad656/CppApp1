@@ -20,6 +20,10 @@
 #include "3dArray.h"
 #include "ArrayPractice.h"
 #include "CharacterArrays.h"
+#include "Pointers1.h"
+#include "Pointers2.h"
+#include "Pointers3.h"
+#include "Pointers4.h"
 using namespace std;
 using namespace myns;
 
@@ -425,7 +429,11 @@ int main()
 	//test2dArray();
 	//test3dArray();
 	//arrayPractice1();
-	characterArraysTest();
+	//characterArraysTest();
+	//pointers1();
+	pointers2();
+	pointers3();
+	pointers4();
 
 	system("pause");
 	return 0;
