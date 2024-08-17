@@ -24,6 +24,7 @@
 #include "Pointers2.h"
 #include "Pointers3.h"
 #include "Pointers4.h"
+#include <string>
 using namespace std;
 using namespace myns;
 
@@ -329,8 +330,19 @@ static void escapeSequencesExamples()
 	std::cout << "Hexadecimal Number (41 = 'A'): \x41" << std::endl;
 }
 
-int main() 
+int main(int argumentsCount, char* arguments[])
 {
+	cout << "You provided " << argumentsCount << " arguments while launching the program. These are:" << endl;
+	int sum = 0;
+	for (int i = 1; i < argumentsCount; i++)
+	{
+		cout << "Adding " << arguments[i] << endl;
+		int convertedValue = stoi(arguments[i]);
+		sum += convertedValue;
+	}
+
+	cout << "Sum is " << sum << endl;
+
 	//int n1, n2;	// declaration
 
 	//cout << "Enter first number: ";
@@ -431,9 +443,9 @@ int main()
 	//arrayPractice1();
 	//characterArraysTest();
 	//pointers1();
-	pointers2();
-	pointers3();
-	pointers4();
+	//pointers2();
+	//pointers3();
+	//pointers4();
 
 	system("pause");
 	return 0;

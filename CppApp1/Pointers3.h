@@ -25,4 +25,8 @@ void p4Ex2()
 	int* arr4[3] = { arr1, arr2, arr3 };
 
 	const char* strings[3] = { "One", "Two", "Three" };
+
+	for (int i = 0; i < 3; i++) {
+		cout << strings[i] << endl;
+	}
 }
