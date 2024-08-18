@@ -25,6 +25,7 @@
 #include "Pointers3.h"
 #include "Pointers4.h"
 #include <string>
+#include "pointers5.h"
 using namespace std;
 using namespace myns;
 
@@ -332,7 +333,7 @@ static void escapeSequencesExamples()
 
 int main(int argumentsCount, char* arguments[])
 {
-	cout << "You provided " << argumentsCount << " arguments while launching the program. These are:" << endl;
+	/*cout << "You provided " << argumentsCount << " arguments while launching the program. These are:" << endl;
 	int sum = 0;
 	for (int i = 1; i < argumentsCount; i++)
 	{
@@ -341,7 +342,7 @@ int main(int argumentsCount, char* arguments[])
 		sum += convertedValue;
 	}
 
-	cout << "Sum is " << sum << endl;
+	cout << "Sum is " << sum << endl;*/
 
 	//int n1, n2;	// declaration
 
@@ -446,6 +447,7 @@ int main(int argumentsCount, char* arguments[])
 	//pointers2();
 	//pointers3();
 	//pointers4();
+	pointers5();
 
 	system("pause");
 	return 0;

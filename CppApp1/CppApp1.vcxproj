@@ -147,6 +147,7 @@
     <ClInclude Include="Pointers2.h" />
     <ClInclude Include="Pointers3.h" />
     <ClInclude Include="Pointers4.h" />
+    <ClInclude Include="pointers5.h" />
     <ClInclude Include="Recursion.h" />
     <ClInclude Include="Recursion2.h" />
     <ClInclude Include="ReturnByRef.h" />

@@ -89,6 +89,9 @@
     <ClInclude Include="Pointers4.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="pointers5.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <None Include="DoLoops.h">
