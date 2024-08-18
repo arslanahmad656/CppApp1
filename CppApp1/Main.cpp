@@ -331,7 +331,7 @@ static void escapeSequencesExamples()
 	std::cout << "Hexadecimal Number (41 = 'A'): \x41" << std::endl;
 }
 
-int main(int argumentsCount, char* arguments[])
+int main(int argc, char* argv[])
 {
 	/*cout << "You provided " << argumentsCount << " arguments while launching the program. These are:" << endl;
 	int sum = 0;
