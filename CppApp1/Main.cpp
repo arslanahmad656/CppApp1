@@ -26,6 +26,8 @@
 #include "Pointers4.h"
 #include <string>
 #include "pointers5.h"
+#include "DynamicMemory2.h"
+#include "DynamicMemory1.h"
 using namespace std;
 using namespace myns;
 
@@ -447,7 +449,9 @@ int main(int argc, char* argv[])
 	//pointers2();
 	//pointers3();
 	//pointers4();
-	pointers5();
+	//pointers5();
+	dynamicMemory1();
+	dynamicMemory2();
 
 	system("pause");
 	return 0;

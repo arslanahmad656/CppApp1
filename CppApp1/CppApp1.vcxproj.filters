@@ -92,6 +92,12 @@
     <ClInclude Include="pointers5.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="DynamicMemory1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DynamicMemory2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <None Include="DoLoops.h">
