@@ -28,6 +28,7 @@
 #include "pointers5.h"
 #include "DynamicMemory2.h"
 #include "DynamicMemory1.h"
+#include "streamstest.h"
 using namespace std;
 using namespace myns;
 
@@ -450,8 +451,9 @@ int main(int argc, char* argv[])
 	//pointers3();
 	//pointers4();
 	//pointers5();
-	dynamicMemory1();
-	dynamicMemory2();
+	//dynamicMemory1();
+	//dynamicMemory2();
+	streamsTest();
 
 	system("pause");
 	return 0;
