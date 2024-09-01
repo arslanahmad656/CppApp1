@@ -457,7 +457,7 @@ int main(int argc, char* argv[])
 	//dynamicMemory1();
 	//dynamicMemory2();
 	//streamsTest();
-	testFiles1();
+	//testFiles1();
 	testFiles2();
 	testFiles3();
 
