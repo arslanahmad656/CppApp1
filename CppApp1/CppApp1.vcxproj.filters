@@ -101,10 +101,24 @@
     <ClInclude Include="streamstest.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="file_handling\files1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="file_handling\files2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="file_handling\files3.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <None Include="DoLoops.h">
       <Filter>Header Files</Filter>
     </None>
+    <None Include="persons info.dat" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="file1.txt" />
+    <Text Include="file3.txt" />
   </ItemGroup>
 </Project>

@@ -141,6 +141,9 @@
     <ClInclude Include="CharacterArrays.h" />
     <ClInclude Include="DynamicMemory1.h" />
     <ClInclude Include="DynamicMemory2.h" />
+    <ClInclude Include="file_handling\files1.h" />
+    <ClInclude Include="file_handling\files2.h" />
+    <ClInclude Include="file_handling\files3.h" />
     <ClInclude Include="FunctionsTest.h" />
     <ClInclude Include="FunctionsTest2.h" />
     <ClInclude Include="mylib.h" />
@@ -162,6 +165,11 @@
     <None Include="DoLoops.h">
       <DeploymentContent>false</DeploymentContent>
     </None>
+    <None Include="persons info.dat" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="file1.txt" />
+    <Text Include="file3.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

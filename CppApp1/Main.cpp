@@ -29,6 +29,9 @@
 #include "DynamicMemory2.h"
 #include "DynamicMemory1.h"
 #include "streamstest.h"
+#include "file_handling/files1.h"
+#include "file_handling/files2.h"
+#include "file_handling/files3.h"
 using namespace std;
 using namespace myns;
 
@@ -453,7 +456,10 @@ int main(int argc, char* argv[])
 	//pointers5();
 	//dynamicMemory1();
 	//dynamicMemory2();
-	streamsTest();
+	//streamsTest();
+	testFiles1();
+	testFiles2();
+	testFiles3();
 
 	system("pause");
 	return 0;
