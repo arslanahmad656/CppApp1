@@ -32,6 +32,8 @@
 #include "file_handling/files1.h"
 #include "file_handling/files2.h"
 #include "file_handling/files3.h"
+#include "files4.h"
+#include "files5.h"
 using namespace std;
 using namespace myns;
 
@@ -458,8 +460,10 @@ int main(int argc, char* argv[])
 	//dynamicMemory2();
 	//streamsTest();
 	//testFiles1();
-	testFiles2();
-	testFiles3();
+	//testFiles2();
+	//testFiles3();
+	//testFiles4();
+	testFiles5();
 
 	system("pause");
 	return 0;

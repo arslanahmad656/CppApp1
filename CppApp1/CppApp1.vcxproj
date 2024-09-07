@@ -141,6 +141,8 @@
     <ClInclude Include="CharacterArrays.h" />
     <ClInclude Include="DynamicMemory1.h" />
     <ClInclude Include="DynamicMemory2.h" />
+    <ClInclude Include="files4.h" />
+    <ClInclude Include="files5.h" />
     <ClInclude Include="file_handling\files1.h" />
     <ClInclude Include="file_handling\files2.h" />
     <ClInclude Include="file_handling\files3.h" />
