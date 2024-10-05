@@ -7,7 +7,7 @@ using namespace std;
 // Class is just a blue print (occupying no space in memory). It is solely used by the compiler to instantiate the objects.
 class Cube
 {
-public:
+public:	// Access modifier to declare all the members publicly available outside the class.
 	// Declaring the attributes (data) of the cube
 	// Initially every data member contains the garbage value
 	double length;
