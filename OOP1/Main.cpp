@@ -1,4 +1,5 @@
 #include <iostream>
+#include "Rectangle.h"
 
 using namespace std;
 
@@ -34,40 +35,52 @@ void PrintColorByRef(Cube&);
 
 int main()
 {
-	// Creating an instance / object of class Cube
-	// type of cube1 is Cube
-	// cube1 is created on stack
-	// Cube is not-primitive. It is complex data type.
-	Cube cube1;
-	Cube cube2;
+	//// Creating an instance / object of class Cube
+	//// type of cube1 is Cube
+	//// cube1 is created on stack
+	//// Cube is not-primitive. It is complex data type.
+	//Cube cube1;
+	//Cube cube2;
 
-	// Use member access operator (.) to access the members of an object
-	cout << cube1.getVolume() << endl;
-	cout << cube1.getSurfaceArea() << endl;
-	cout << cube2.getVolume() << endl;
+	//// Use member access operator (.) to access the members of an object
+	//cout << cube1.getVolume() << endl;
+	//cout << cube1.getSurfaceArea() << endl;
+	//cout << cube2.getVolume() << endl;
 
-	cube1.width = 10;	// This will only modify cube1 (not cube 2)
-	cube1.height = 20;
-	cube1.length = 30;
-	cube1.color = "Black";
-	cube2.color = "Orange";
+	//cube1.width = 10;	// This will only modify cube1 (not cube 2)
+	//cube1.height = 20;
+	//cube1.length = 30;
+	//cube1.color = "Black";
+	//cube2.color = "Orange";
 
-	cout << cube1.getVolume() << endl;
-	cout << cube1.getSurfaceArea() << endl;
-	cout << cube2.getVolume() << endl;
-	cout << "Color of cube 1: " << cube1.color << endl
-		<< "Color of cube 2: " << cube2.color << endl;
+	//cout << cube1.getVolume() << endl;
+	//cout << cube1.getSurfaceArea() << endl;
+	//cout << cube2.getVolume() << endl;
+	//cout << "Color of cube 1: " << cube1.color << endl
+	//	<< "Color of cube 2: " << cube2.color << endl;
 
-	// Passing cube by value.
-	PrintColorByVal(cube1);
-	cout << cube1.color << endl;
+	//// Passing cube by value.
+	//PrintColorByVal(cube1);
+	//cout << cube1.color << endl;
 
-	// Passing cube by ref.
-	PrintColorByRef(cube1);
-	cout << cube1.color << endl;
+	//// Passing cube by ref.
+	//PrintColorByRef(cube1);
+	//cout << cube1.color << endl;
 
-	cout << sizeof(cube1) << endl
-		<< sizeof(cube2) << endl;
+	//cout << sizeof(cube1) << endl
+	//	<< sizeof(cube2) << endl;
+
+	//cube1.length = -1;	// can the length be negative?????
+	//cout << cube1.getVolume() << endl;
+
+	Rectangle r1;
+	cout << "Area of r1: " << r1.getArea() << endl;
+	r1.setLength(-1);
+	r1.setWidth(-2);
+	cout << "Area of r1: " << r1.getArea() << endl;
+	r1.setLength(10);
+	r1.setWidth(20);
+	cout << "Area of r1: " << r1.getArea() << endl;
 }
 
 void PrintColorByVal(Cube cube)
