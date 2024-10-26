@@ -127,11 +127,18 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="DemoMemoryLeakage.cpp" />
+    <ClCompile Include="Item.cpp" />
     <ClCompile Include="Main.cpp" />
+    <ClCompile Include="OrderTest\fig09_13.cpp" />
     <ClCompile Include="Rectangle.cpp" />
     <ClCompile Include="Sequence.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="DemoMemoryLeakage.h" />
+    <ClInclude Include="ExitVsAbort.h" />
+    <ClInclude Include="Item.h" />
+    <ClInclude Include="OrderTest\CreateAndDestroy.h" />
     <ClInclude Include="Rectangle.h" />
     <ClInclude Include="Sequence.h" />
   </ItemGroup>
