@@ -6,12 +6,10 @@ using namespace std;
 int main()
 {
 	Circle c1(1, 10);
-	c1.setRadius(20);
+	auto cPtr1 = new Circle(2, 20);
 
-	const Circle c2(2, 20);
-	//c2.setRadius(30);	// changes the member
-	c2.getRadius();	// does not change any member
-	c2.print(); // does not change any member
+	cout << cPtr1->getTotalObjects() << endl;	// impression is that an instance method is being invoked on c1.
+	cout << Circle::getTotalObjects() << endl;
 
-	c1.print();
+	delete cPtr1;
 }

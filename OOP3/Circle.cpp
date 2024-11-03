@@ -23,11 +23,15 @@ Circle::Circle(int id, double radius)
     }
 
     objectCount++;
+
+    cout << "A new circle was instantiated. Total circles in memory: " << objectCount << endl;
 }
 
 Circle::~Circle()
 {
     objectCount--;
+    
+    cout << "A circle was destroyed. Remaining circles in memory: " << objectCount << endl;
 }
 
 double Circle::getRadius() const
@@ -54,4 +58,17 @@ double Circle::getArea() const
 void Circle::print() const
 {
     cout << "ID: " << id << ", radius: " << radius << endl;
+}
+
+int Circle::getTotalObjects()
+{
+    return objectCount;
+}
+
+void Circle::testStaticMethod()
+{
+    //cout << this->objectCount << endl;  // not allowed to use 'this' inside the static methods since 'this' is not there in static methods. static methods can be invoked without any object
+    cout << pi << endl;
+
+    //cout << id << endl; // cannot access the non-static members
 }

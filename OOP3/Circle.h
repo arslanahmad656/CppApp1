@@ -15,4 +15,6 @@ public:
 	bool setRadius(double radius);
 	double getArea() const;
 	void print() const;
+	static int getTotalObjects();
+	static void testStaticMethod();
 };
